@@ -17,8 +17,8 @@ template<typename T>
 class LinkedList
 {
 public:
-	LinkedList() = default;
 
+	LinkedList() = default;
 	template<typename U>
 	requires std::same_as<T, U>
 	LinkedList(U data)
